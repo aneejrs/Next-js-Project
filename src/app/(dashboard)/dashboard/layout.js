@@ -1,0 +1,11 @@
+import Sidebar from "../../../../components/Sidebar";
+export default function DashboardLayout({ children }) {
+  return (
+    <div style={{ display: "flex", minHeight: "100vh" }}>
+      {}
+      <Sidebar />
+      {}
+      <main style={{ flex: 1, padding: "20px", backgroundColor: "#f9fafb" }}>{children}</main>
+    </div>
+  );
+}

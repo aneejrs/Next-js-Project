@@ -1,0 +1,323 @@
+.body {
+    font-family: Arial;
+    margin : 0;
+background-color : #e2e8f0;
+}
+
+html.body{
+height:100%;
+}
+
+body{
+    display : flex;
+    flex-direction:column;
+}
+
+.card{
+    border-radius : 10px;
+    box-shadow : 0 4px 8px rgba(0,0,0,0.1);
+    text-align : center;
+    transition : transform 0.3s;
+}
+
+.card:hover{
+    transform : translateY(-5px);
+}
+
+/* crud */
+
+/* Global CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Center the complete CRUD section */
+.crud-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* CRUD card */
+.crud-card {
+  width: 100%;
+  max-width: 750px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2563eb;
+}
+
+h2 {
+  margin: 25px 0 15px;
+}
+
+/* Form inputs */
+.crud-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 9px 16px;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #2563eb;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.add-btn {
+  width: 100%;
+  background-color: #2563eb;
+}
+
+.edit-btn {
+  background-color: #16a34a;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+}
+
+/* User list */
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+@media (max-width: 600px) {
+  .crud-card {
+    padding: 18px;
+  }
+
+  .user-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+}
+
+/* Centre the entire CRUD application */
+.crud-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Centre all content inside the card */
+.crud-card {
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.crud-card h1 {
+  margin-bottom: 25px;
+}
+
+.crud-card h2 {
+  margin: 25px 0 15px;
+}
+
+/* Inputs */
+.crud-card input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.crud-card button {
+  padding: 9px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #2563eb;
+  cursor: pointer;
+}
+
+.crud-card button:hover {
+  opacity: 0.8;
+}
+
+/* Centre each user row */
+.user-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.crud-card .edit-btn {
+  background: #16a34a;
+}
+
+.crud-card .delete-btn {
+  background: #dc2626;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+/* Centre the CRUD section on the webpage */
+.crud-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CRUD content box */
+.crud-card {
+  width: 650px;
+  max-width: 90%;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading alignment */
+.crud-card h1,
+.crud-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.crud-card input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.crud-card button {
+  padding: 8px 14px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+/* Each user row */
+.user-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+/* Move the entire page content to the centre */
+body > div,
+#root,
+main {
+  min-height: 100vh;
+}
+
+.crud-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crud-card {
+  width: 650px;
+  max-width: 95%;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
