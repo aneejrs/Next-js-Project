@@ -321,3 +321,37 @@ main {
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
+
+
+/* Centre the Add User form */
+.crud-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.crud-form input {
+  width: 100%;
+  max-width: 350px;
+  padding: 12px;
+}
+
+.crud-form button {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Centre the CRUD heading */
+.crud-card h1 {
+  text-align: center;
+}
+
+/* Centre the User List heading */
+.crud-card h2 {
+  text-align: center;
+}

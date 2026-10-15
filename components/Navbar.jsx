@@ -27,8 +27,8 @@ export default function Navbar() {
         Users-Server
       </Link>
 
-      <Link href="/users-api" style={{ color: "white", marginRight: "10px" }}>
-        Users-API
+      <Link href="/crud" style={{ color: "white", marginRight: "10px" }}>
+         Crud
       </Link>
     </nav>
   );
