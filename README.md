@@ -10,6 +10,14 @@ A full-stack web application built with **Next.js, React, JavaScript, and MongoD
 - MongoDB
 - CSS
 
+## ✍️Author
+
+**Aneej R Suku** 👨🏻‍💻
+
+💼Portfolio: https://my-portfolio-deployment-8zmo.vercel.app/
+
+📌LinkedIn : https://www.linkedin.com/in/aneej-r-suku-ba6959217/
+
 ## 📄 License
 
 This project is licensed under the MIT License.
