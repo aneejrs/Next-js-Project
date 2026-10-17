@@ -14,7 +14,7 @@ A full-stack web application built with **Next.js, React, JavaScript, and MongoD
 
 **Aneej R Suku** 👨🏻‍💻
 
-💼Portfolio: https://my-portfolio-deployment-8zmo.vercel.app/
+💼Portfolio: https://aneejrsuku-portfolio-8zmo.vercel.app
 
 📌LinkedIn : https://www.linkedin.com/in/aneej-r-suku-ba6959217/
 
